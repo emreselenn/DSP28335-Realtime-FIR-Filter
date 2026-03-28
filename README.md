@@ -41,7 +41,8 @@ dsp28335-realtime-fir-filter/
 ├── DSP2833x_* # TI-provided device support files
 ├── .project / .cproject # CCS project files
 └── README.md
----
+```
+
 ## How It Works
 
 1. **PWM Signal Generation**
