@@ -4,7 +4,7 @@ This project performs real-time digital filtering using the TI TMS320F28335 DSP.
 
 ---
 
-## 🎯 What This Project Does
+## What This Project Does
 
 - Generates a 2kHz PWM signal on `ePWM1A` (25% duty cycle)
 - Samples that PWM signal at 50kHz using `ADCINA2`
@@ -18,7 +18,7 @@ This project performs real-time digital filtering using the TI TMS320F28335 DSP.
 
 ---
 
-## ⚙️ Hardware Requirements
+##  Hardware Requirements
 
 - **TI TMS320F28335** DSP or compatible ControlCARD
 - Onboard ADC (channel A2 / ADCINA2)
@@ -31,7 +31,7 @@ This project performs real-time digital filtering using the TI TMS320F28335 DSP.
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 dsp28335-realtime-fir-filter/
 ├── main.c # Main logic (PWM, ADC, FIR, LED control)
@@ -44,7 +44,7 @@ dsp28335-realtime-fir-filter/
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 1. **PWM Signal Generation**
    - `ePWM1A` generates a 2kHz test signal (25% duty)
@@ -65,7 +65,7 @@ dsp28335-realtime-fir-filter/
 
 ---
 
-## 🧠 Useful For:
+##  Useful For:
 
 - Learning real-time digital filtering on DSPs
 - IQmathLib usage (fixed-point math)
@@ -74,7 +74,7 @@ dsp28335-realtime-fir-filter/
 
 ---
 
-## 📈 Visualizing the Output
+##  Visualizing the Output
 
 In **Code Composer Studio (CCS)**, use:
 
@@ -86,16 +86,4 @@ In **Code Composer Studio (CCS)**, use:
 
 ---
 
-## 🚧 Future Improvements
-
-- [ ] Add UART output for real-time data monitoring
-- [ ] Support dynamic filter coefficient update
-- [ ] Implement variable sample rates
-- [ ] Integrate with FFT or frequency analyzer
-
----
-
-## 📄 License
-
-This project is provided for educational and academic use. Contact the author for alternative licensing options.
 
