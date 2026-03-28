@@ -33,12 +33,12 @@ This project performs real-time digital filtering using the TI TMS320F28335 DSP.
 
 ##  Project Structure
 
-dsp28335-realtime-fir-filter/
-├── main.c # Main logic (PWM, ADC, FIR, LED control)
-├── filter.c/.h # IQssfir implementation (if not linked from library)
-├── IQmathLib headers # TI's fixed-point math library (linked or included)
-├── DSP2833x_* # TI-provided device support files
-├── .project / .cproject # CCS project files
+dsp28335-realtime-fir-filter/---
+├── main.c # Main logic (PWM, ADC, FIR, LED control)---
+├── filter.c/.h # IQssfir implementation (if not linked from library)---
+├── IQmathLib headers # TI's fixed-point math library (linked or included)---
+├── DSP2833x_* # TI-provided device support files---
+├── .project / .cproject # CCS project files---
 └── README.md
 
 
